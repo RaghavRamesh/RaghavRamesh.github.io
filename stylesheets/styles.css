@@ -1,15 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
+  margin: 0;
+  padding: 50px;
+  background: #151515 url("../images/bkg.png") 0 0;
+  color: #eaeaea;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
-  margin:0 0 20px;
+  margin: 0 0 20px;
 }
 
 p, ul, ol, table, pre, dl {
@@ -20,17 +22,17 @@ h1, h2, h3 {
   line-height:1.1;
 }
 
-h1 {
-  font-size:28px;
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #b5e853;
+  letter-spacing: -0.03em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
 }
 
-h2 {
-  color:#393939;
-}
-
-h3, h4, h5, h6 {
-  color:#494949;
-}
 
 a {
   color:#39c;
@@ -121,7 +123,7 @@ header ul {
   width:270px;
 }
 
-header li {
+/*header li {
   width:89px;
   float:left;
   border-right:1px solid #d2d2d2;
@@ -136,7 +138,7 @@ header ul a {
   text-align:center;
   padding-top:6px;
   height:40px;
-}
+}*/
 
 header .links {
   margin-top:40px;
@@ -167,20 +169,18 @@ strong {
   font-weight:700;
 }
 
-header ul li + li {
-  width:88px;
-  border-left:1px solid #fff;
+ul li {
+  list-style: none;
 }
 
-header ul li + li + li {
-  border-right:none;
-  width:89px;
-}
-
-header ul a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
+ul li:before {
+  content: ">>";
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 13px;
+  color: #b5e853;
+  margin-left: -37px;
+  margin-right: 21px;
+  line-height: 16px;
 }
 
 section {
