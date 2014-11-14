@@ -251,7 +251,8 @@ calculates the time taken to complete case services</li>
 
 <div id="resume" class="toogle">
 <h2><a name="resume" class="anchor" href="#resume"><span class="octicon octicon-link"></span></a>Resume</h2>
-You can download my resume <a id="resumeDownload" href="CV_Raghav.pdf" download>here</a>.
+You can download my resume <a id="resumeDownload" href="CV_Raghav.pdf" download 
+        onclick="_gaq.push(['_trackEvent', 'Downloads', 'PDF', '/salesForms/orderForm1.pdf']);">here</a>.
 </div>
 </section>
 
@@ -284,11 +285,11 @@ function show(componentId) {
 }
 show("about");
 </script>
-<script>
-var downloadLink = document.getElementById("resumeDownload");
-addListener(downloadLink, 'click', function() {
-  ga('send', 'event', 'link', 'click', 'resume');
-});
-</script>
+<!--<script>
+// var downloadLink = document.getElementById("resumeDownload");
+// addListener(downloadLink, 'click', function() {
+//   ga('send', 'event', 'link', 'click', 'resume');
+// });
+// </script>-->
 </body>
 </html>
