@@ -33,6 +33,40 @@ h1, h2, h3, h4, h5, h6 {
                0 0 10px rgba(181, 232, 83, 0.1);
 }
 
+.css-typing
+{
+    width: 30em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 4s steps(60, end);
+    animation: type 4s steps(60, end);
+}
+
+.css-typing:nth-child(2){
+  -webkit-animation: type2 4s steps(60, end);
+  animation: type2 4s steps(60, end);
+}
+
+
+@keyframes type{
+  from { width: 0; }
+}
+
+@-webkit-keyframes type{
+  from { width: 0; }
+}
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@-webkit-keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+}
 
 a {
   color:#39c;
