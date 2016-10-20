@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "intro"
+date:   2016-10-21 07:30:00 +0800
+categories: introduction
+---
+
+Writing a blog has been on my mind for a long time now, and today I'm finally starting one. I intend to post about my experiences in software engineering and cricket.
