@@ -44,3 +44,8 @@ ul.posts li {
 .date {
     color: #888;
 }
+
+.back-link {
+    float: right;
+    padding-right: 20px;
+}
