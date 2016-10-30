@@ -3,7 +3,7 @@ layout: post
 title: "Inline documentation"
 date: 2016-10-27
 ---
-Before I start this article, I must tell you that it is not about why documentation is important, as there are plenty of articles out there telling you why. It focuses on the quality of documentation; more specifically, inline documentation.
+Before I start this article, I must tell that it is not about why documentation is important, as there are plenty of articles out there telling you why. It focuses on the quality of documentation; more specifically, inline documentation.
 
 Have you been in a situation where documentation is present, but you’re still scratching your head about why the code is implemented a certain way? I did recently, when I was adding new capabilities to code I had written 5 months ago. Yes, there was documentation available, but it was only stating what the code was doing, not why. The intent behind the implementation was missing.
 
