@@ -49,6 +49,8 @@ ul.posts li {
 
 .date {
     color: #888;
+    font-family: 'Monaco', 'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 0.9em;
 }
 
 .back-link {
