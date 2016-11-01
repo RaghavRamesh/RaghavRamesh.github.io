@@ -66,3 +66,15 @@ ul.posts li {
     font-size: 0.9em;
     text-align: center;
 }
+
+@media (max-width: 480px) {
+    body {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        width: 80%;
+    }
+}
