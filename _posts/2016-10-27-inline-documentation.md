@@ -15,7 +15,7 @@ The second problem that occurred was comparitively rare. Since I was only docume
 
 So how to avoid getting into this? These days, I document the intent before starting to implement. Then I go on to document how the intent is achieved - implementation design, while implementing or after implementation.
 
-In the first case, since the intent is documented, its easier to reason about how the code is trying to achieve it. Also, the mind is not yet clouded with implementation design. In the second case, even if the implementation documentation is done after writing the code, the documented intent serves as a reminder to document the cases that should not be handled.
+In the first case, since the intent is documented, it's easier to reason about how the code is trying to achieve it. Also, the mind is not yet clouded with implementation design. In the second case, even if the implementation documentation is done after writing the code, the documented intent serves as a reminder to document the cases that should not be handled.
 
 What do you think? How do you write inline documentation?
 
