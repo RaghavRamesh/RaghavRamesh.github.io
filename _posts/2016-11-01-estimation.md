@@ -41,4 +41,4 @@ An objective approach on things to consider while estimating a story or a task i
 
 Estimation is hard because it's hard to predict the variables that may affect your work in the future. But you can definitely take steps from your end to become better at evaluation.
 
-How do you deal with estimation? Do you have any useful tips? If so do share them with me by commenting below!
+How do you deal with estimation? Do you have any useful tips? 
