@@ -4,12 +4,12 @@ title: "Estimation"
 date: 2016-11-01
 ---
 
-All developers are asked some variation of this frightening question - *How long will you take to finish this?* or *By when can you finish this?* or something else. Its frightening because its tough to always deliver within the estimate and if you don't, all tasks dependent on this are delayed.
+All developers are asked some variation of this frightening question - *How long will you take to finish this?* or *By when can you finish this?* or something else. Its frightening because its tough to consistently deliver within the estimate.
 
 Why?
-There is a lot of uncertainty when a [user story](https://en.wikipedia.org/wiki/User_story) is defined. There are multiple variables involved in the estimation process. Yet, you, the developer, are forced to make a commitment. And its worse until you realise that you’re not alone, because you would be blaming yourself and thinking you’re incompetent when you don't finish it by the given estimate.
+There is a lot of uncertainty when a [user story](https://en.wikipedia.org/wiki/User_story) is defined. There are multiple variables involved in the estimation process. Yet, you, the developer, are expected to make a commitment. If you haven't already realised that you're not alone, it's worse because you would be blaming yourself and thinking you’re incompetent when you don't finish it by the given estimate.
 
-Estimates are guesses, and sometimes they can go wrong.
+But estimates are guesses, and sometimes they can go wrong.
 
 But if you don’t stick to your estimate, you probably need to give an excuse during daily scrum, then your team member will say - *Looks like I'm blocked, let me see what else I can work on.* Gah! That's not the best thing to hear especially if your daily scrum is at the start of the day.
 
