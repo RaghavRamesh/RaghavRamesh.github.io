@@ -67,18 +67,18 @@ ul.posts li {
     text-align: center;
 }
 
-// @media screen
-//     and (min-width: 320px)
-//     and (max-width: 479px) {
-//     body {
-//         width: 90%;
-//     }
-// }
+@media screen
+    and (min-width: 320px)
+    and (max-width: 479px) {
+    body {
+        width: 90%;
+    }
+}
 
-// @media screen
-//     and (min-width: 480px)
-//     and (max-width: 900px) {
-//     body {
-//         width: 80%;
-//     }
-// }
+@media screen
+    and (min-width: 480px)
+    and (max-width: 900px) {
+    body {
+        width: 80%;
+    }
+}
