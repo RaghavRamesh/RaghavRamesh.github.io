@@ -78,6 +78,10 @@ ul.posts li {
     body {
         width: 90%;
     }
+
+    .video {
+        width: 95%;
+    }
 }
 
 @media screen
@@ -85,5 +89,9 @@ ul.posts li {
     and (max-width: 900px) {
     body {
         width: 80%;
+    }
+
+    .video {
+        width: 95%;
     }
 }
