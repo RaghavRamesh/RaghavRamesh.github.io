@@ -59,7 +59,12 @@ ul.posts li {
 }
 
 .center {
+    width: 100%;
     text-align: center;
+}
+
+.video {
+    width: 70%;
 }
 
 .attribution {
