@@ -19,5 +19,6 @@ It’s completely normal to get into a lazy zone; we’re not machines performin
   - Getting up to get coffee. Physical activity helps, caffeine even better.
   - If you're someone who listens to music while at work, turn it off. Music usually helps drive the mind into mild meditative states. Music helps to get you into zones that [can be productive](/blog/2016/10/24/the-zone.html) and otherwise.
   - Set a personal target for each day and hit that consistently. Or use an external storyboard that dictates the estimates for each user story.
+  - You could also use [this silly Chrome extension](https://chrome.google.com/webstore/detail/slackr/olbngjfbpfnmlcjkbiajphbnnicncbng) I've built, that prompts you to get out of your lazy zone. :D
 
 I tell myself to raise the stakes, to volunteer for more work, to challenge myself on a daily basis because slacking is just a side-effect when there is no clear plan.
