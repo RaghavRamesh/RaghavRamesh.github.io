@@ -27,9 +27,9 @@ You will naturally get better at evaluating the time taken for tasks as you ship
 
 Uncle Bob says that estimation is actually best explained using a probability distribution graph.
 
- * If everything goes as planned, you could probably complete the story in 2 days.
- * The highest probability would be a nominal estimate, 3 days.
- * If multiple things don't go as planned, there is even a chance of the story taking 10 days to be completed - pessimistic.
+ - If everything goes as planned, you could probably complete the story in 2 days.
+ - The highest probability would be a nominal estimate, 3 days.
+ - If multiple things don't go as planned, there is even a chance of the story taking 10 days to be completed - pessimistic.
 
 Woah, hold on there Ragi, this graph looks all nice and dandy, but I can't get back to my product manager with a graph everytime he asks me how long I will take to finish something, right?
 
@@ -41,4 +41,4 @@ An objective approach on things to consider while estimating a story or a task i
 
 Estimation is hard because it's hard to predict the variables that may affect your work in the future. But you can definitely take steps from your end to become better at evaluation.
 
-How do you deal with estimation? Do you have any useful tips? 
+How do you deal with estimation? Do you have any useful tips?

@@ -4,6 +4,7 @@ title: "The XY problem"
 date: 2016-10-23
 ---
 As a software engineer intern, I often used to find myself in this situation
+
 - See the problem and come up with a solution in my head
 - In excitement quickly jump into implementing this solution
 - Get stuck while implementing and then contemplate about getting help

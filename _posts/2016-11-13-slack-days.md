@@ -15,8 +15,9 @@ It's because sometimes we hit an unexpected problem which messes up our estimate
 Being unproductive is a state of inertia. It’s very easy to get sucked back into the zone of unproductivity if there is no greater force like deadline, meeting, timecheck or an update request by your boss. For some it’s the initial barrier of starting to work that is the hardest to cross and once in motion, things start flowing.
 
 It’s completely normal to get into a lazy zone; we’re not machines performing mundane tasks. Snapping out of it is key, and I've found the following helpful
-  * Getting up to get coffee. Physical activity helps, caffeine even better.
-  * If you're someone who listens to music while at work, turn it off. Music usually helps drive the mind into mild meditative states. Music helps to get you into zones that [can be productive](/blog/2016/10/24/the-zone.html) and otherwise.
-  * Set a personal target for each day and hit that consistently. Or use an external storyboard that dictates the estimates for each user story.
+
+  - Getting up to get coffee. Physical activity helps, caffeine even better.
+  - If you're someone who listens to music while at work, turn it off. Music usually helps drive the mind into mild meditative states. Music helps to get you into zones that [can be productive](/blog/2016/10/24/the-zone.html) and otherwise.
+  - Set a personal target for each day and hit that consistently. Or use an external storyboard that dictates the estimates for each user story.
 
 I tell myself to raise the stakes, to volunteer for more work, to challenge myself on a daily basis because slacking is just a side-effect when there is no clear plan.
