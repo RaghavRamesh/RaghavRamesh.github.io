@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Instant messaging at work"
-date: 2016-11-22
+date: 2016-11-21
 ---
 
 Instant messaging can save a lot of time at work. Instead of walking over to a person's desk and disturbing their workflow, we can send a message to get a quick response. If we're not careful though, chatting at work can affect overall productivity.
