@@ -4,7 +4,7 @@ title: "Setting up your Digital Ocean hosted Jekyll website"
 date: 2016-11-22
 ---
 
-This post contains a curated list of 'how-to' links on setting up your website. This post makes specific choices such as GoDaddy for domain name, Digital Ocean for an Ubuntu virtual private hosting, Jekyll for site generation, nginx for serving out your site, etc. The lack of flexibility in choices is intentional so as to keep the tutorial as short as possible and hopefully serve as the only how-to page you will need in order to have your website up and running.
+This post contains a curated list of 'how-to' links on setting up your website and makes specific choices such as GoDaddy for domain name, Digital Ocean for an Ubuntu virtual private hosting, Jekyll for site generation, nginx for serving out your site, etc. The lack of flexibility in choices is intentional so as to keep the tutorial as short as possible and hopefully serve as the only how-to page you will need in order to have your website up and running.
 
 I would have preferred such a list as well when I was setting up my website, but instead I had to search for different tutorials for each choice that I made along the way. Not to mention the different issues that came up during each step.
 
@@ -31,7 +31,7 @@ Let's get started without any further ado. The steps you need to do to setup you
 If you've followed the above links, you'd have successfully setup your website. Congrats! :) A few things that you could do next
 
 - Buy an SSL certificate for your website to enable secure browsing for your website visitors.
-- Buy `whois` privacy! Or else you'll find companies offering web development, hosting and SEO services contact you using the details you provided while registering your domain. It can get pretty annoying!
+- Buy `whois` privacy. Else you'll find companies offering web development, hosting and SEO services contact you using the details you provided while registering your domain. It can get pretty annoying!
 
 
 
