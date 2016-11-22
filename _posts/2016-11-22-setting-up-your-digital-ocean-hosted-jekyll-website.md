@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting up your Jekyll website hosted in Digital Ocean"
+title: "Setting up your Digital Ocean hosted Jekyll website"
 date: 2016-11-22
 ---
 
