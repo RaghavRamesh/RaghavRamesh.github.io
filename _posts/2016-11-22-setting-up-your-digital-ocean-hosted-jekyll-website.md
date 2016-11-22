@@ -29,6 +29,7 @@ Let's get started without any further ado. The steps you need to do to setup you
   You can follow [this link](http://withr.me/add-domain-name-for-your-server-on-digitalocean/) to help you connect your domain name that you bought from GoDaddy for your server on Digital Ocean. Check [this link](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean) if you wish to setup subdomains and mail for your new domain.
 
 If you've followed the above links, you'd have successfully setup your website. Congrats! :) A few things that you could do next
+
 - Buy an SSL certificate for your website to enable secure browsing for your website visitors.
 - Buy `whois` privacy! Or else you'll find companies offering web development, hosting and SEO services contact you using the details you provided while registering your domain. It can get pretty annoying!
 
