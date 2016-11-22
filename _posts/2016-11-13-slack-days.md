@@ -12,7 +12,7 @@ None of us want to slack off at work. At the end of the day, everyone wishes to 
 
 It's because sometimes we hit an unexpected problem which messes up our estimate for the task at hand; or that we lost trail of our research and ended up 4 tabs to the right of the original Google search. Or sometimes we are just not in the right mental space at work because of other thoughts like a fight with spouse or an ill parent/child.
 
-Being unproductive is a state of inertia. It’s very easy to get sucked back into the zone of unproductivity if there is no greater force like deadline, meeting, timecheck or an update request by your boss. For some it’s the initial barrier of starting to work that is the hardest to cross and once in motion, things start flowing.
+Being unproductive is a state of inertia. It’s very easy to get sucked back into the zone of unproductivity if there is no greater force like a deadline, a meeting, timecheck or an update request by your boss. For some it’s the initial barrier of starting to work that is the hardest to cross and once in motion, things start flowing.
 
 It’s completely normal to get into a lazy zone; we’re not machines performing mundane tasks. Snapping out of it is key, and I've found the following helpful
 
