@@ -2,6 +2,9 @@
 @import url(monokai.css);
 
 /* Modifications */
+.center {
+  text-align: center;
+}
 
 pre.highlight,
 .highlight pre {
@@ -13,7 +16,7 @@ pre.highlight code,
   white-space: pre-wrap;
 }
 
-.btn, 
+.btn,
 .navigation__item a {
   margin: 5px 0;
   white-space: nowrap;

@@ -1,18 +1,18 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno/'
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+title: Raghav Ramesh
+description: 'Software Engineer from National University of Singapore'
+url: 'http://raghavramesh.com'
+baseurl: '/'
+google_analytics: 'UA-56675128-1'
+disqus_shortname: 'raghavs-blog'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Raghav Ramesh'
+  email: raghavramesh94@gmail.com
+  twitter_username: raghavramesh94
+  # facebook_username: raghav213
+  github_username:  RaghavRamesh
+  linkedin_username:  raghavramesh21
 
 defaults:
   -
@@ -25,7 +25,7 @@ defaults:
 # Build settings
 destination: _site
 paginate: 10
-permalink: /:year/:title/
+permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
 highlighter: rouge
 
