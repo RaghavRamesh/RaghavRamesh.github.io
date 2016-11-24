@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.prevent-scrolling {
+  overflow-y: hidden
+}
+
 pre.highlight,
 .highlight pre {
   padding: 10px;
