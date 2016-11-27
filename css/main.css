@@ -2,6 +2,11 @@
 @import url(monokai.css);
 
 /* Modifications */
+.read-more {
+  font-size: 0.7em;
+  padding: 5px 10px 5px 10px;
+}
+
 .center {
   text-align: center;
 }
