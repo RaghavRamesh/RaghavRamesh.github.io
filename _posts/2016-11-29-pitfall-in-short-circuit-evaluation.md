@@ -21,13 +21,13 @@ In the above two lines, the second part of the expression is not evaluated as th
 This strategy comes in handy when you're defining the constructor of your class and assigning default values for the data members of the class.
 
 ```
-function Counter(initialCount) {
-  // Intent: Set initialCount if specified, else set null
-  this._count = initialCount || null;
+function Hand(numOfCards) {
+  // Intent: Set cards in hand if specified, else set default value 2
+  this._numberOfCards = numOfCards || 2;
 }
 ```
 
-So if initialCount is passed while declaring a new Counter, this value is assigned to the data member `_count`, otherwise, it's set to `null`.
+So if `numberOfCards` is passed while declaring a new `Hand`, this value is assigned to the data member `_numberOfCards`, otherwise, it's set to `2`.
 
 This falls under one of those techniques we pick up by reading code, and not by taking an extra step to read the spec. The downside is that the pitfalls have to be learnt the hard way.
 
@@ -38,10 +38,10 @@ In JavaScript, `0` and empty string `""`, two commonly assigned values are consi
 
 Let's consider our example above,
 
-* When `initialCount` is say, `5`, `5 || null` evaluates to `true || null`, evaluates to `true`. So `5` is assigned to `this._count`. Great!
-* When `initialCount` is `0` though, `0 || null` evaluates to `false || null`, evaluates to `null` !! because `0` is `falsy`. Fail!
+* When `numOfCards` is say, `5`, the expression becomes `5 || 2`, which means the first operand and the operation already determine the final result of the expression.  So `5` is assigned to `this._numberOfCards`. Great!
+* When `numOfCards` is `0` though, the expression becomes `0 || 2`, which means the second operand needs to be evaluated since the first operand is `falsy`. The expression evaluates to `2`, even though you passed a value to `numOfCards`. Fail!
 
-The same applies to empty strings `""`. Watch out for this while using the short circuit evaluation.
+The same applies to empty strings `""`. Watch out for these while using the short circuit evaluation.
 
 ### References
 * [Logical operators](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Logical_Operators), Mozilla Developer Network
