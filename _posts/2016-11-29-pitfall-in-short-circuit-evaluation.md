@@ -16,7 +16,7 @@ true || (anything);  // returns true
 ```
 
 ### When is it useful?
-This strategy comes in handy when you're defining your constructor and assigning default values for the data members of the class.
+This strategy comes in handy when you're defining the constructor of your class and assigning default values for the data members of the class.
 
 ```
 function Counter(initialCount) {
@@ -37,7 +37,7 @@ Let's consider our example above,
 * When initialCount is assigned say, `5`, `5 || null` becomes `true || null` becomes `true`. So `5` is assigned to `this._count`. Great!
 * When initialCount = `0` though, `0 || null` becomes `false || null` becomes `null` !! because `0` is `falsy`. Fail!
 
-The same applies to empty strings `""`. So is it really worth the single line code?
+The same applies to empty strings `""`. So, is it really worth using short-cut evaluation?
 
 ### References
 * [Logical operators](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Logical_Operators), Mozilla Developer Network
