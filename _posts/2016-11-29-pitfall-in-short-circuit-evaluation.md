@@ -15,6 +15,8 @@ false && (anything); // returns false
 true || (anything);  // returns true
 ```
 
+In the above two lines, the second part of the expression is not evaluated as the first operand and the operation already determine the final result.
+
 ### When is it useful?
 This strategy comes in handy when you're defining the constructor of your class and assigning default values for the data members of the class.
 
@@ -25,19 +27,21 @@ function Counter(initialCount) {
 }
 ```
 
-This falls under one of those techniques you pick up by reading code and not from spec. The downside to doing that is when you encounter pitfalls - they have to be learnt the hard way.
+So if initialCount is passed while declaring a new Counter, this value is assigned to the data member `_count`, otherwise, it's set to `null`.
+
+This falls under one of those techniques we pick up by reading code, and not by taking an extra step to read the spec. The downside is that the pitfalls have to be learnt the hard way.
 
 ### The pitfall
-The problem occurs when you're trying to assign `falsy` values - if a value can be converted to `false`, it's considered `falsy`.
+The problem occurs when we use a `falsy` value as the first operand - if a value can be converted to `false`, it's considered `falsy`.
 
 In JavaScript, `0` and empty string `""`, two commonly assigned values are considered `falsy` among others like `null`, `undefined` and `NaN`.
 
 Let's consider our example above,
 
-* When initialCount is assigned say, `5`, `5 || null` becomes `true || null` becomes `true`. So `5` is assigned to `this._count`. Great!
-* When initialCount = `0` though, `0 || null` becomes `false || null` becomes `null` !! because `0` is `falsy`. Fail!
+* When `initialCount` is say, `5`, `5 || null` evaluates to `true || null`, evaluates to `true`. So `5` is assigned to `this._count`. Great!
+* When `initialCount` is `0` though, `0 || null` evaluates to `false || null`, evaluates to `null` !! because `0` is `falsy`. Fail!
 
-The same applies to empty strings `""`. So, is it really worth using short-cut evaluation?
+The same applies to empty strings `""`. Watch out for this while using the short circuit evaluation.
 
 ### References
 * [Logical operators](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Logical_Operators), Mozilla Developer Network
