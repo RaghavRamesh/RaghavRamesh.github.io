@@ -39,7 +39,7 @@ In JavaScript, `0` and empty string `""`, two commonly assigned values are consi
 Let's consider our example above,
 
 * When `numOfCards` is say, `5`, the expression becomes `5 || 2`, which means the first operand and the operation already determine the final result of the expression.  So `5` is assigned to `this._numberOfCards`. Great!
-* When `numOfCards` is `0` though, the expression becomes `0 || 2`, which means the second operand needs to be evaluated since the first operand is `falsy`. The expression evaluates to `2`, even though you passed a value to `numOfCards`. Fail!
+* When `numOfCards` is `0` though, the expression becomes `0 || 2`, which means the second operand needs to be evaluated since the first operand is `falsy`. The expression evaluates to the default value `2`, even though a value for `numOfCards` was provided. Fail!
 
 The same applies to empty strings `""`. Watch out for these while using the short circuit evaluation.
 
