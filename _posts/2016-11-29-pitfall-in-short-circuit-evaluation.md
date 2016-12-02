@@ -8,7 +8,7 @@ tags: [javascript]
 Short-circuit evaluation is an evaluation strategy used in many languages, JavaScript included. Recently I encountered a pitfall which costed me an hour of debugging.
 
 ### What is it?
-Simply put it's taking advantage of the fact that a boolean expression is only evaluated as long as its final result is not yet known. The following rules apply:
+Simply put, it's taking advantage of the fact that a boolean expression is only evaluated, as long as its final result is not yet known. The following rules apply:
 
 ```
 false && (anything); // returns false

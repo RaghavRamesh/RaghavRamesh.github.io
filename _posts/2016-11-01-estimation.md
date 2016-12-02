@@ -12,7 +12,7 @@ There is a lot of uncertainty when a [user story](https://en.wikipedia.org/wiki/
 
 But estimates are guesses, and sometimes they can go wrong.
 
-But if you don’t stick to your estimate, you probably need to give an excuse during daily scrum, then your team member will say - *Looks like I'm blocked, let me see what else I can work on.* Gah! That's not the best thing to hear especially if your daily scrum is at the start of the day.
+And if you don’t stick to your estimate, you probably need to give an excuse during daily scrum, then your team member will say - *Looks like I'm blocked, let me see what else I can work on.* Gah! That's not the best thing to hear especially if your daily scrum is at the start of the day.
 
 Not just that you are haunted by your previous experiences of giving an optimisitic estimate and ending up taking around twice as much time to complete the story. Why? Because in our eagerness to impress our supervisors, we tend to over promise. I’ve done that in my first internship only to be humiliated in front of the entire team including two new junior interns.
 
@@ -34,7 +34,7 @@ Uncle Bob says that estimation is actually best explained using a probability di
 
 Woah, hold on there Ragi, this graph looks all nice and dandy, but I can't get back to my product manager with a graph everytime he asks me how long I will take to finish something, right?
 
-Well, first of all, don't call me Ragi. Secondly, yes you can't get back with a graph. But there is a practical solution that can be interpreted from the graph. If you observe the above graph keenly, you can infer that there is a 50% chance that you can complete the story in 3 days, and a 90% chance that you can complete the task in 5 days. This is called the 50-90 approach. You can do yourself a favor by not sticking to a hard deadline due to the uncertainty involved and get back with two reasonable values.
+Well, first of all, don't call me Ragi. Secondly, yes you can't get back with a graph. But there is a practical solution that can be interpreted from the graph. If you observe the above graph keenly, you can infer that there is a 50% chance that you can complete the story in 3 days, and a 90% chance that you can complete the task in 5 days. This is called the 50-90 approach.You can do yourself a favor by not sticking to a hard deadline due to the uncertainty involved and get back with two reasonable values. I should thank my Product Manager, Ian Loh, for introducing me to this technique.
 
 One another solution is to have a [Planning Poker](https://en.wikipedia.org/wiki/Planning_poker) session at the start of a sprint to estimate tasks together as a team. When multiple developers are involved in estimating tasks, you will feel more confident in evaluating the estimates of stories and it also gives you an opportunity to explain the reasoning behind your estimate.
 

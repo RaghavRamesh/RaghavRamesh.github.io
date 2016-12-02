@@ -14,7 +14,7 @@ As a software engineer intern, I often used to find myself in this situation
 - The senior person asks more questions to understand what I'm trying to do
 - Eventually, we come up with a solution, but I always end up feeling that I needn't have sought help in the first place
 
-This was not a one-off situation; it turns out this is a common pattern.
+This was not a one-off situation and it turns out this is a common pattern.
 
 The XY problem
 ------

@@ -12,7 +12,7 @@ The reason why I missed out from documenting the intent, is because I wrote all 
 
 Firstly, I was under the false assumption that I was writing useful documentation by writing about what the code does. I did not write about the underlying intent as the intent seemed obvious to me at the time. But it wasn't when I was coming back to the code a few months later.
 
-The second problem that occurred was comparitively rare. Since I was only documenting code that was written, I did not document about cases that should not be handled. This is similar to a limitation of white box testing - you can only test functionality that is present, you can't test missing functionality. Some cases should not have been handled in order for the program control flow to behave a certain way to achieve the intent, but I didn't document that. A well-meaning developer could come onboard and handle the missing case, thereby messing the control flow.
+The second problem that occurred was comparitively rare. Since I was only documenting code that was written, I did not document about cases that should not be handled. This is similar to a limitation of white box testing - you can only test functionality that is present, you can't test missing functionality. Some cases should not have been handled in order for the program control flow to behave a certain way to achieve the intent, but I didn't document that. A well-meaning developer could come onboard and handle the "missing case", thereby messing the control flow.
 
 So how to avoid getting into this? These days, I document the intent before starting to implement. Then I go on to document how the intent is achieved - implementation design, while implementing or after implementation.
 
