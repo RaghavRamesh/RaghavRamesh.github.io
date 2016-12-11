@@ -43,6 +43,15 @@ Let's consider our example above,
 
 The same applies to empty strings `""`. Watch out for these while using the short circuit evaluation.
 
+### An alternative
+A slightly verbose but a single line alternative for the above pitfall is to use the ternary operator.
+
+```
+this._numberOfCards = (numberOfCards !== undefined && numberOfCards !== null)
+  ? numberOfCards
+  : 2;
+```
+
 ### References
 * [Logical operators](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Logical_Operators), Mozilla Developer Network
 * [Short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation), Wikipedia
