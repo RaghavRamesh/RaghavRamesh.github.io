@@ -1,7 +1,7 @@
 # Site settings
 title: Raghav Ramesh
-description: 'Software Engineer at JP Morgan Chase & Co.'
-url: 'http://raghavramesh.com'
+description: 'Cloud Engineer at JP Morgan Chase & Co.'
+url: 'http://raghavramesh.github.io'
 baseurl: '/'
 google_analytics: 'UA-56675128-1'
 disqus_shortname: 'raghavs-blog'
@@ -24,7 +24,7 @@ defaults:
 
 # Build settings
 destination: _site
-paginate: 5
+paginate: 10
 permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
 highlighter: rouge
