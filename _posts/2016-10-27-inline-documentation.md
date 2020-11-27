@@ -1,8 +1,8 @@
 ---
 title: "Inline documentation"
 date: 2016-10-27
-categories: [documentation, team-work]
-tags: [documentation, team-work]
+categories: [communication]
+tags: [documentation]
 ---
 Before I start this article, I must tell that it is not about why documentation is important, as there are plenty of articles out there telling you why. It focuses on the quality of documentation; more specifically, inline documentation.
 

@@ -1,7 +1,7 @@
 ---
 title: "Pitfall in Short circuit evaluation"
 date: 2016-11-29
-categories: [javascript]
+categories: [code]
 tags: [javascript]
 ---
 

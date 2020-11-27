@@ -1,8 +1,8 @@
 ---
 title: "Setting up your Digital Ocean hosted Jekyll website"
 date: 2016-11-22
-categories: [jekyll, tutorial]
-tags: [jekyll, tutorial]
+categories: [tutorial]
+tags: [deployment]
 ---
 
 This post contains a curated list of 'how-to' links on setting up your website and makes specific choices such as GoDaddy for domain name, Digital Ocean for an Ubuntu virtual private hosting, Jekyll for site generation, nginx for serving out your site, etc. The lack of flexibility in choices is intentional so as to keep the tutorial as short as possible and hopefully serve as the only how-to page you will need in order to have your website up and running.
