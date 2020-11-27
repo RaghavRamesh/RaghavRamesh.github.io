@@ -66,8 +66,8 @@ order: 1
 
       <!-- arrow -->
       {% if sub_categories_size > 0%}
-      <a href="#{{ LIST_PREFIX }}{{ group_index }}" data-toggle="collapse" 
-        aria-expanded="true" aria-label="{{ HEAD_PREFIX }}{{ group_index }}-trigger" 
+      <a href="#{{ LIST_PREFIX }}{{ group_index }}" data-toggle="collapse"
+        aria-expanded="true" aria-label="{{ HEAD_PREFIX }}{{ group_index }}-trigger"
         class="category-trigger hide-border-bottom">
         <i class="fas fa-fw fa-angle-down"></i>
       </a>

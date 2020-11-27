@@ -1,7 +1,7 @@
 ---
 title: "Estimation"
 date: 2016-11-01
-categories: [estimate]
+categories: [process]
 tags: [estimate]
 ---
 
