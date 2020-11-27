@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll", ">= 3.8.6", "< 5.0"
 gem "kramdown-parser-gfm"
+gem "bundler"
 
 # plugins
 group :jekyll_plugins do
