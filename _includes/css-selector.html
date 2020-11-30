@@ -21,8 +21,8 @@
     {% elsif page.title == 'Tags' %}
       <link rel="preload" href="{{ '/assets/css/tags.css' | relative_url }}" as="style">
       <link rel="stylesheet" href="{{ '/assets/css/tags.css' | relative_url }}">
-   
-    {% elsif page.title == 'Archives'%}
+
+    {% elsif page.title == 'Archives' or page.title == 'Notes' %}
       <link rel="preload" href="{{ '/assets/css/archives.css' | relative_url }}" as="style">
       <link rel="stylesheet" href="{{ '/assets/css/archives.css' | relative_url }}">
    

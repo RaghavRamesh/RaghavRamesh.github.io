@@ -1,7 +1,7 @@
 ---
 title: Archives
 icon: fas fa-archive
-order: 3
+order: 6
 
 # The Archives of posts.
 # v2.0

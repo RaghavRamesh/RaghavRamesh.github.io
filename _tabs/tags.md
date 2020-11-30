@@ -1,7 +1,7 @@
 ---
 title: Tags
 icon: fas fa-tags
-order: 2
+order: 5
 
 # All the Tags of posts.
 # v2.0
