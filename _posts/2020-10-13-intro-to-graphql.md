@@ -6,10 +6,9 @@ tags: [graphql]
 ---
 
 
-I recently gave an intro talk on GraphQL after performing a spike for one of our products. The
+I recently gave an intro talk on GraphQL after performing a spike for one of our products at JPMorgan. The
 following's the script I used. I've stripped out some parts for regulatory reasons. For the same reason,
-I also can't obtain the Powerpoint presentation file. So for this post, I'm sharing the presentation
-script I used.
+I also can't obtain the Powerpoint presentation file. But the generic bits are still useful for those new to GraphQL.
 
 ---
 
