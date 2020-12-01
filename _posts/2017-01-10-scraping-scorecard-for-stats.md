@@ -1,5 +1,5 @@
 ---
-title: "Scraping scorecard for partnership stats"
+title: "Side project: Scraping scorecard for partnership stats"
 date: 2017-01-10
 categories: [side-project]
 tags: [javascript, nodejs, cricket]
