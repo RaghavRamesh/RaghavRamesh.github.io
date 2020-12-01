@@ -1,5 +1,5 @@
 ---
-title: "Notes on Grafana ObservabilityCON 2020"
+title: "Notes from Grafana ObservabilityCON 2020"
 date: 2020-11-29
 categories: [notes]
 tags: [review, conference]
