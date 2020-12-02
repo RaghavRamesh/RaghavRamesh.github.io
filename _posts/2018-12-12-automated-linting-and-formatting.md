@@ -1,5 +1,5 @@
 ---
-title: "Automated linting and formatting"
+title: "Automated linting and formatting (2018)"
 date: 2018-12-12
 categories: [tutorial]
 tags: [javascript, eslint, prettier]
