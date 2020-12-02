@@ -34,7 +34,7 @@ Today I’m going to be talking about GraphQL, how it’s different from REST, w
 ![getting started](/assets/img/posts/intro-to-graphql/why-graphql.png)
 
 ## Comparing to REST
-Let's take an example of a shopping cart and the data needed to populate the above UI
+Let's take an example of a shopping cart and the data needed to populate the following UI
 - ![cart ui](/assets/img/posts/intro-to-graphql/cart-ui.png)
 
 What kind of data do we need? And how would you build a REST API for this?
