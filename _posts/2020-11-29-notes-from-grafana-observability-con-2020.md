@@ -5,7 +5,10 @@ categories: [notes]
 tags: [review, conference]
 ---
 
-There could not have been a more appropriate conference than Grafana's [ObservabilityCON 2020](https://grafana.com/about/events/observabilitycon/) given that I work on JPMorgan Chase & Co.'s private cloud Observability and given that we use Grafana extensively for visualizing our telemetry information. I've documented the highlights, the things I liked and the action items I'd take from attending this virtual conference.
+There could not have been a more appropriate conference than Grafana's [ObservabilityCON 2020](https://grafana.com/about/events/observabilitycon/) given that I work on JPMorgan Chase & Co.'s private cloud Observability. I've documented the highlights, the things I liked and the action items I'd take from attending this virtual conference.
+
+### Disclaimer
+Any views or opinions expressed in this post are my own and they don't reflect the views and opinions of JPMorgan Chase & Co., the firm I'm currently employed with.
 
 ## Highlights
 - Grafana Labs released

@@ -7,7 +7,7 @@ tags: [spotify, backstage, architecture, review, product]
 
 ### Disclaimers
 * This evaluation was conducted in mid-2020 so there might be changes to the Backstage product since then, so keep this in mind while reading this evaluation.
-* For regulatory reasons, this is a stripped down version of the original evaluation I published within JPMorgan Chase & Co.. So it will not contain the introduction which contains the context of this evaluation and the conclusion which contains what steps we took based on this evaluation. Nevertheless, I believe the rest of the content is still sufficiently meaningful, so I've extracted those bits for this post.
+* For regulatory reasons, this is a stripped down version of the original evaluation I published within JPMorgan Chase & Co.. So it will not contain the introduction which contains the context of this evaluation and the conclusion which contains what steps we took based on this evaluation. Nevertheless, I believe the rest of the content is still sufficiently meaningful, so I've extracted those bits for this post. Also, the content published below does not reflect the views or opinions of JPMorgan Chase & Co. in any way. They are purely my own.
 
 ## Product Evaluation
 ### Overview
