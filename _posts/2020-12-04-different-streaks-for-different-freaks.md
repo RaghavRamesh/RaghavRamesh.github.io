@@ -9,7 +9,7 @@ tags: [french, streak, duolingo]
 
 I'm glad I found a way to trick my brain into developing a useful habit: I've been learning French (mostly, and a few other languages) on Duolingo for the past 500 or so days for at least 5 mins every day.
 
-The journey so far has been rewarding. It started out as an activity my then girlfriend (now wife) would do together. Over time I developed genuine interest towards the language and I ventured into learning about the French culture through TV shows, podcasts and travel videos.
+The journey so far has been rewarding. It started out as an activity my wife and I would do together. Over time I developed genuine interest towards the language and I ventured into learning about the French culture through TV shows, podcasts and travel videos.
 
 On days when I was not motivated to learn, this streak stat and my discipline kept me going. On other days,
 I find myself glued to my phone finishing lesson after lesson on Duolingo, soaking in the benefits of [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition).

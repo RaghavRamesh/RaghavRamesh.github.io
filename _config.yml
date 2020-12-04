@@ -13,9 +13,7 @@ title: Raghav Ramesh                          # the main title
 tagline: A software engineer based in Singapore.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Personal blog by Raghav Ramesh.
 
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
 url: 'https://raghavramesh.github.io'
