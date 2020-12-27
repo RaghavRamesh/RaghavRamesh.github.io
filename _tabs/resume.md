@@ -5,4 +5,4 @@ order: 3
 
 ---
 
-<iframe src="https://docs.google.com/gview?url=http://localhost:4000/assets/resume/Resume.pdf&embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
+<object data="/assets/resume/Resume.pdf" type="application/pdf" width="100%" style="height: 100vh">
