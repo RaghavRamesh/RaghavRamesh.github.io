@@ -54,16 +54,16 @@ GET /product_images/<id> // x3
 Can we make it a single request?
 - I can use a query param, expand my associations
   - `/carts/<id>?expand=products`
-  - stuck with the entire product resource even though you only need title, desc, price
+  - Problem with this approach: stuck with the entire product resource even though you only need title, desc, price
 - Even more clever, specify which fields you want
   - `/carts/<id>?fields=products(name, description, price)`
-  - but that’s only 1 level deep, what if you had to go a level deeper
+  - Problem with this approach: that’s only 1 level deep, what if you had to go a level deeper
 
 The GraphQL query equivalent is as follows
-- ![cart schema](/assets/img/posts/intro-to-graphql/cart-schema.png)
+- ![cart query](/assets/img/posts/intro-to-graphql/cart-schema.png)
 
 The following is how the schema corresponding to the objects in this UI would look like:
-- ![cart ui](/assets/img/posts/intro-to-graphql/cart-ui.png)
+- ![cart schema](/assets/img/posts/intro-to-graphql/demo-schema.png)
 
 References: [GraphQL Schema Design by Giroux](https://www.youtube.com/watch?v=pJamhW2xPYw)
 
@@ -94,7 +94,7 @@ References: [GraphQL Schema Design by Giroux](https://www.youtube.com/watch?v=pJ
 
 ## Gotchas
 - InputUnion type is missing: [Github Issue](https://github.com/graphql/graphql-spec/issues/488)
-[Output object type Union is present](https://www.apollographql.com/docs/apollo-server/schema/unions-interfaces/) but Input Union type is still in RFC. So till it's available, all checks must be performed server-side.
+[Output object type Union is present](https://www.apollographql.com/docs/apollo-server/schema/unions-interfaces/) but Input Union type is still in RFC. So until it's available, all checks must be performed server-side.
 E.g., Applies in the case where a user should specify only either type A or type B but not both while performing a mutation query. While it's possible to verify this while querying due to the presence of Union type it's not possible to enforce this in mutations.
 - Dynamic key value pairs should be avoided so that we get the benefit of static type checking enforced by GraphQL. For e.g., in the case of labels, we can use a Label type which has a `key` and `value` as keys. And it will look like the following: [https://stackoverflow.com/a/46563788](https://stackoverflow.com/a/46563788)
 - GraphQL Playground, unlike GraphiQL doesn't allow queries to be populated with URL query params. The next best alternative is to set default queries via tabs.
@@ -126,4 +126,3 @@ E.g., Applies in the case where a user should specify only either type A or type
 ## Final thoughts
 - Cool documentary by HoneyPot on [YouTube](https://www.youtube.com/watch?v=783ccP__No8&vl=en)
 - Thank you and happy querying!
-
