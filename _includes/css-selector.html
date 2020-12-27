@@ -17,15 +17,15 @@
     {% if page.title == 'Categories' %}
       <link rel="preload" href="{{ '/assets/css/categories.css' | relative_url }}" as="style">
       <link rel="stylesheet" href="{{ '/assets/css/categories.css' | relative_url }}">
-   
+
     {% elsif page.title == 'Tags' %}
       <link rel="preload" href="{{ '/assets/css/tags.css' | relative_url }}" as="style">
       <link rel="stylesheet" href="{{ '/assets/css/tags.css' | relative_url }}">
 
-    {% elsif page.title == 'Archives' or page.title == 'Notes' %}
+    {% elsif page.title == 'Archives' or page.title == 'Notes' or page.title == 'Resume' %}
       <link rel="preload" href="{{ '/assets/css/archives.css' | relative_url }}" as="style">
       <link rel="stylesheet" href="{{ '/assets/css/archives.css' | relative_url }}">
-   
+
     {% endif %}
 
   {% else %}
